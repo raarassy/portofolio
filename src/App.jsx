@@ -270,7 +270,7 @@ export default function App() {
               Saya seorang mahasiswa Sistem Informasi di Universitas Negeri Semarang yang memiliki passion di bidang IT. Saya memiliki pengalaman kerja nyata melalui program <strong className="text-[#021A54]">Quality Assurance Internship di PT. Anggada Duta Wisesa</strong>, di mana saya terbiasa melakukan testing aplikasi, investigasi bug, dan penyusunan dokumentasi teknis.
             </p>
             <p className="text-sm font-medium text-[#021A54]/80 leading-relaxed">
-              Selain itu, saya sangat aktif berorganisasi di <strong className="text-[#021A54]">Hima Ilkom UNNES</strong> sebagai Wakil Koordinator Divisi Sosial Masyarakat, serta berpengalaman menjadi koordinator & panitia di berbagai kepanitiaan besar.
+              Selain itu, saya aktif berorganisasi di <strong className="text-[#021A54]">Hima Ilkom UNNES</strong> sebagai Wakil Koordinator Divisi Sosial Masyarakat, serta berpengalaman menjadi koordinator & panitia di berbagai kepanitiaan.
             </p>
           </div>
 
