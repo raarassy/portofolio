@@ -153,7 +153,7 @@ export default function App() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#E3F2FD]/90 backdrop-blur-md border-b border-[#898AC4]/20 transition-all">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
           <a href="#hero" className="font-extrabold text-xl tracking-tight text-[#021A54]">
-            Putri Rasyidah Dinanti<span className="text-[#898AC4]">.</span>
+            Putri Rasyidah Dinanti
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-[#021A54]/80">
             <a href="#about" className="hover:text-[#898AC4] transition-colors">About</a>
@@ -172,7 +172,7 @@ export default function App() {
       </header>
 
       {/* HERO SECTION */}
-      <section id="hero" className="relative z-10 pt-28 pb-16 md:pt-36 md:pb-24 max-w-5xl mx-auto px-6">
+      <section id="hero" className="relative z-10 pt-36 pb-16 md:pt-40 md:pb-24 max-w-5xl mx-auto px-6">
         
         {/* 🌟 KELOMPOK IKON ANEKA BENTUK (BINTANG, BULAN, LOVE, SPARKLE + 3 SPAN) */}
         {/* Kelompok Kanan Atas */}
