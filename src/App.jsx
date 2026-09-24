@@ -43,12 +43,12 @@ export default function App() {
 
   // Data 6 Sertifikat Dicoding
   const dicodingCertificates = [
-    { title: "Sertifikat Dicoding 1", image: "sertif_dicoding_datscien.jpg" },
-    { title: "Sertifikat Dicoding 2", image: "sertif_dicoding_pemroC.jpg" },
-    { title: "Sertifikat Dicoding 3", image: "sertif_dicoding_python.jpg" },
-    { title: "Sertifikat Dicoding 4", image: "sertif_dicoding_sql.jpg" },
-    { title: "Sertifikat Dicoding 5", image: "sertif_dicoding_softdev.jpg" },
-    { title: "Sertifikat Dicoding 6", image: "sertif_dicoding_ai.jpg" }
+    { title: "Sertifikat Dicoding 1", image: "/sertif_dicoding_datscien.jpg" },
+    { title: "Sertifikat Dicoding 2", image: "/sertif_dicoding_pemroC.jpg" },
+    { title: "Sertifikat Dicoding 3", image: "/sertif_dicoding_python.jpg" },
+    { title: "Sertifikat Dicoding 4", image: "/sertif_dicoding_sql.jpg" },
+    { title: "Sertifikat Dicoding 5", image: "/sertif_dicoding_softdev.jpg" },
+    { title: "Sertifikat Dicoding 6", image: "/sertif_dicoding_ai.jpg" }
   ];
 
   const nextDicodingCert = () => {
@@ -61,8 +61,8 @@ export default function App() {
 
   // Data 2 Sertifikat Hima Ilkom
   const himaCertificates = [
-    { title: "Sertifikat Hima - Studi Banding", image: "sertif_hima_stuban.jpg" },
-    { title: "Sertifikat Hima - Lentera Kasih", image: "sertif_hima_lentera.jpg" }
+    { title: "Sertifikat Hima - Studi Banding", image: "/sertif_hima_stuban.jpg" },
+    { title: "Sertifikat Hima - Lentera Kasih", image: "/sertif_hima_lentera.jpg" }
   ];
 
   const nextHimaCert = () => {
@@ -248,7 +248,7 @@ export default function App() {
 
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden border-4 border-white shadow-xl bg-white p-2">
               <img 
-                src="ras_tobys3.jpeg" 
+                src="/ras_tobys3.jpeg" 
                 alt="Foto Raras" 
                 className="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-500"
               />
@@ -396,7 +396,7 @@ export default function App() {
 
                 <div className="group relative rounded-2xl overflow-hidden border border-[#898AC4]/20 bg-[#E3F2FD]/30 p-2 shadow-sm hover:shadow-md transition-all cursor-pointer max-w-[85%] mx-auto w-full">
                   <img 
-                    src="sertif_revou.jpg" 
+                    src="/sertif_revou.jpg" 
                     alt="Sertifikat RevoU Data Analytics" 
                     className="w-full h-auto object-contain rounded-xl group-hover:scale-102 transition-transform duration-300"
                   />
@@ -464,7 +464,7 @@ export default function App() {
 
                 <div className="group relative rounded-2xl overflow-hidden border border-[#898AC4]/20 bg-[#E3F2FD]/30 p-2 shadow-sm hover:shadow-md transition-all cursor-pointer max-w-[85%] mx-auto w-full">
                   <img 
-                    src="sertif_mvp_lentera.jpg" 
+                    src="/sertif_mvp_lentera.jpg" 
                     alt="Sertifikat Volunteer Lentera Kasih" 
                     className="w-full h-auto object-contain rounded-xl group-hover:scale-102 transition-transform duration-300"
                   />
@@ -485,7 +485,7 @@ export default function App() {
 
                 <div className="group relative rounded-2xl overflow-hidden border border-[#898AC4]/20 bg-[#E3F2FD]/30 p-2 shadow-sm hover:shadow-md transition-all cursor-pointer max-w-[85%] mx-auto w-full">
                   <img 
-                    src="sertif_mvp_interface.jpg" 
+                    src="/sertif_mvp_interface.jpg" 
                     alt="Sertifikat Volunteer Interface" 
                     className="w-full h-auto object-contain rounded-xl group-hover:scale-102 transition-transform duration-300"
                   />
