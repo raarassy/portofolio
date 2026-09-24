@@ -299,10 +299,11 @@ export default function App() {
                 <span className="text-[11px] font-bold text-[#898AC4]">
                   2020 – 2024
                 </span>
+                <p className="text-[11px] font-medium text-[#021A54]/40">
+                  Program 4 Tahun
+                </p>                
                 <h3 className="text-sm font-bold text-[#021A54] mt-1">SMKN 26 Jakarta</h3>
-                <p className="text-xs font-medium text-[#021A54]/75">
-                  Sistem Informatika, Jaringan, dan Aplikasi (SIJA)
-                </p>
+                <p className="text-xs font-semibold text-[#898AC4]">Sistem Informatika, Jaringan, dan Aplikasi (SIJA)</p>
               </div>
 
             </div>
