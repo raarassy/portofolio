@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@theme {
+  --color-pastel-blue: #E3F2FD;
+  --color-pastel-lilac: #EBD6FB;
+  --color-pastel-lavender: #898AC4;
+  --color-pastel-navy: #021A54;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #E3F2FD;
+  color: #021A54;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Custom Entrance Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-pop-in {
+  animation: popIn 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
